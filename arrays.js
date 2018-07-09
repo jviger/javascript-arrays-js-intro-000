@@ -45,8 +45,8 @@ return array;
   
 }
 var removeElementFromEndOfArray = function(array){
-  var newArray = array;
-  return newArray.pop();
+  var newArray = array.slice(0,array.length-1);
+  return newArray;
   
 }
 
